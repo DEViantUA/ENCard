@@ -2,9 +2,9 @@
 
 ENCard - Add-on for module: https://github.com/DEViantUA/EnkaCard 
 
-Example run is in the file: Example.py
+Example run is in the file: ``Example.py``
 
-To run: Download the folder: encard and put it together with the file Example.py in the same directory, then run the code through the file: Example.py
+To run: Download the folder: ``encard`` and put it together with the file ``Example.py`` in the same directory, then run the code through the file: ``Example.py``
 
 
 

@@ -1,4 +1,5 @@
 from .src.teamplate import generating_template_one
+from .src.teamplate  import generation_profile_one
 from .src.tools import translation
 import asyncio,os,datetime
 
@@ -113,7 +114,20 @@ class ENCard:
 
     async def __aexit__(self, *args):
         pass
+    
+    async def create_profile(self, uid, template=1):
+        check = check_UID_and_template(uid, template)
 
+        if check is not True:
+            return check
+        else:
+            if template == 1:
+                result = await generation_profile_one.ProfileOne(translation = self.translator,uid = uid, lang = self.lang, characterImgs = self.characterImgs, characterName = self.characterName, adapt = self.adapt, hide = self.hide, agent = self.agent).start()
+        if self.save:
+            await save_banner(uid, result.card, "profile")
+
+        return result
+    
     async def create_cards(self, uid, template=1):
         check = check_UID_and_template(uid, template)
 

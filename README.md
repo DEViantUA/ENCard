@@ -27,11 +27,7 @@ asyncio.run(generator_card(724281429))
 ## Profile Example:
 
 ```py
-from ENCard import encard
-import asyncio
-
 async def generator_profile(uid): 
-    s = time.time()
     async with encard.ENCard(lang = "en") as enc:
         result = await enc.create_profile(uid)
 

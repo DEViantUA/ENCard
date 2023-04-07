@@ -84,9 +84,30 @@ _mapping = {
     'CLOSED_CONSTANT_PYRO': 'template_one/constant/closed/CLOSE_CONST_PYRO.png',
     'CLOSED_CONSTANT': 'template_one/constant/closed/CLOSED.png',
     'CLOSED_ADAPT_MASK_CONSTANT': 'template_one/constant/closed/ADAPT.png',
-
-
     'SKILLS': 'template_one/talants/bg.png',
+
+
+
+    'AVATAR': 'profile_one/AVATAR.png',
+    'AVATAR_MASK': 'profile_one/AVATAR_MASKA.png',
+    'BANNER_FRAME': 'profile_one/BANNER_FRAME.png',
+
+    'CHARTER_4': 'profile_one/CHARTER_4.png',
+    'CHARTER_5': 'profile_one/CHARTER_5.png',
+
+    'CHARTER_BACKGROUND': 'profile_one/CHARTER_BACKGROUND.png',
+    'CHARTER_MASK': 'profile_one/CHARTER_MASK.png',
+
+    'PROFILE_BACKGROUND': 'profile_one/PROFILE-BACKGROUND.png',
+
+
+    'COLOR_ANEMO': 'icon/Element_Small_Anemo.png',
+    'COLOR_DENDRO': 'icon/Element_Small_Dendro.png',
+    'COLOR_GEO': 'icon/Element_Small_Geo.png',
+    'COLOR_HYDRO': 'icon/Element_Small_Hydro.png',
+    'COLOR_ELECTRO': 'icon/Element_Small_Electro.png',
+    'COLOR_PYRO': 'icon/Element_Small_Pyro.png',
+    'COLOR_CRYO': 'icon/Element_Small_Cryo.png',
 
     }
 

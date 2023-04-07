@@ -3,8 +3,7 @@ from PIL import ImageDraw,Image
 
 from enkanetwork.enum import EquipmentsType, DigitType
 from enkanetwork.model.stats import Stats
-from enkanetwork import EnkaNetworkAPI
-from ..tools import git, namecard_map, pill
+from ..tools import git, namecard_map, pill,EnkanetworkApi
 from ..modal import ENCardResult
 
 
@@ -485,21 +484,21 @@ class TeampleOne:
 
 
     async def start(self):
-        async with EnkaNetworkAPI(user_agent = self.agent, lang=self.lang) as client:
-            info = await client.fetch_user(self.uid)
-            self.name_user = info.player.nickname
 
-            user_data = {
-                "uid": self.uid,
-                "name": self.name_user,
-                "lang": self.lang,
-                "card": [],
-            }
+        info = await EnkanetworkApi.get_full_info(self.agent,self.lang,self.uid)
+        self.name_user = info.player.nickname
 
-            if self.characterName != "":
-                tasks = [asyncio.create_task(self.card(charters)) for charters in info.characters if charters.name in self.characterName]
-            else:
-                tasks = [asyncio.create_task(self.card(charters)) for charters in info.characters]
+        user_data = {
+            "uid": self.uid,
+            "name": self.name_user,
+            "lang": self.lang,
+            "card": [],
+        }
+
+        if self.characterName != "":
+            tasks = [asyncio.create_task(self.card(charters)) for charters in info.characters if charters.name in self.characterName]
+        else:
+            tasks = [asyncio.create_task(self.card(charters)) for charters in info.characters]
 
 
         user_data["card"] = await asyncio.gather(*tasks)

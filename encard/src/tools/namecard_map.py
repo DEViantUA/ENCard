@@ -224,6 +224,11 @@ mapping = {
       "icon":"https://api.ambr.top/assets/UI/namecard/UI_NameCardIcon_Yelan.png",
       "image":"https://api.ambr.top/assets/UI/namecard/UI_NameCardPic_Yelan_P.png"
    },
+   "10000061":{
+      "id":210162,
+      "icon":"https://api.ambr.top/assets/UI/namecard/UI_NameCardIcon_Kirara.png",
+      "image":"https://api.ambr.top/assets/UI/namecard/UI_NameCardPic_Kirara_P.png"
+   },
    "10000062":{
       "id":210095,
       "icon":"https://api.ambr.top/assets/UI/namecard/UI_NameCardIcon_Aloy.png",
@@ -329,14 +334,89 @@ mapping = {
       "icon":"https://api.ambr.top/assets/UI/namecard/UI_NameCardIcon_Baizhuer.png",
       "image":"https://api.ambr.top/assets/UI/namecard/UI_NameCardPic_Baizhuer_P.png"
    },
-   "10000005":{
+   "10000083":{
+      "id":210166,
+      "icon":"https://api.ambr.top/assets/UI/namecard/UI_NameCardIcon_Linette.png",
+      "image":"https://api.ambr.top/assets/UI/namecard/UI_NameCardPic_Linette_P.png"
+   },
+   "10000084":{
+      "id":210165,
+      "icon":"https://api.ambr.top/assets/UI/namecard/UI_NameCardIcon_Liney.png",
+      "image":"https://api.ambr.top/assets/UI/namecard/UI_NameCardPic_Liney_P.png"
+   },
+   "10000085":{
+      "id":210167,
+      "icon":"https://api.ambr.top/assets/UI/namecard/UI_NameCardIcon_Freminet.png",
+      "image":"https://api.ambr.top/assets/UI/namecard/UI_NameCardPic_Freminet_P.png"
+   },
+   "10000086":{
+      "id":210175,
+      "icon":"https://api.ambr.top/assets/UI/namecard/UI_NameCardIcon_Wriothesley.png",
+      "image":"https://api.ambr.top/assets/UI/namecard/UI_NameCardPic_Wriothesley_P.png"
+   },
+   "10000087":{
+      "id":210174,
+      "icon":"https://api.ambr.top/assets/UI/namecard/UI_NameCardIcon_Neuvillette.png",
+      "image":"https://api.ambr.top/assets/UI/namecard/UI_NameCardPic_Neuvillette_P.png"
+   },
+   "10000088":{
+      "id":210181,
+      "icon":"https://api.ambr.top/assets/UI/namecard/UI_NameCardIcon_Charlotte.png",
+      "image":"https://api.ambr.top/assets/UI/namecard/UI_NameCardPic_Charlotte_P.png"
+   },
+   "10000089":{
+      "id":210180,
+      "icon":"https://api.ambr.top/assets/UI/namecard/UI_NameCardIcon_Furina.png",
+      "image":"https://api.ambr.top/assets/UI/namecard/UI_NameCardPic_Furina_P.png"
+   },
+   "10000005-hydro":{
       "id":210001,
-      "icon":"UI_NameCardPic_0_P",
+      "icon":"https://api.ambr.top/assets/UI/namecard/UI_NameCardIcon_0.png",
       "image":"https://api.ambr.top/assets/UI/namecard/UI_NameCardPic_0_P.png"
    },
-   "10000007":{
+   "10000005-anemo":{
       "id":210001,
-      "icon":"UI_NameCardPic_0_P",
+      "icon":"https://api.ambr.top/assets/UI/namecard/UI_NameCardIcon_0.png",
+      "image":"https://api.ambr.top/assets/UI/namecard/UI_NameCardPic_0_P.png"
+   },
+   "10000005-geo":{
+      "id":210001,
+      "icon":"https://api.ambr.top/assets/UI/namecard/UI_NameCardIcon_0.png",
+      "image":"https://api.ambr.top/assets/UI/namecard/UI_NameCardPic_0_P.png"
+   },
+   "10000005-electro":{
+      "id":210001,
+      "icon":"https://api.ambr.top/assets/UI/namecard/UI_NameCardIcon_0.png",
+      "image":"https://api.ambr.top/assets/UI/namecard/UI_NameCardPic_0_P.png"
+   },
+   "10000005-dendro":{
+      "id":210001,
+      "icon":"https://api.ambr.top/assets/UI/namecard/UI_NameCardIcon_0.png",
+      "image":"https://api.ambr.top/assets/UI/namecard/UI_NameCardPic_0_P.png"
+   },
+   "10000007-hydro":{
+      "id":210001,
+      "icon":"https://api.ambr.top/assets/UI/namecard/UI_NameCardIcon_0.png",
+      "image":"https://api.ambr.top/assets/UI/namecard/UI_NameCardPic_0_P.png"
+   },
+   "10000007-anemo":{
+      "id":210001,
+      "icon":"https://api.ambr.top/assets/UI/namecard/UI_NameCardIcon_0.png",
+      "image":"https://api.ambr.top/assets/UI/namecard/UI_NameCardPic_0_P.png"
+   },
+   "10000007-geo":{
+      "id":210001,
+      "icon":"https://api.ambr.top/assets/UI/namecard/UI_NameCardIcon_0.png",
+      "image":"https://api.ambr.top/assets/UI/namecard/UI_NameCardPic_0_P.png"
+   },
+   "10000007-electro":{
+      "id":210001,
+      "icon":"https://api.ambr.top/assets/UI/namecard/UI_NameCardIcon_0.png",
+      "image":"https://api.ambr.top/assets/UI/namecard/UI_NameCardPic_0_P.png"
+   },
+   "10000007-dendro":{
+      "id":210001,
+      "icon":"https://api.ambr.top/assets/UI/namecard/UI_NameCardIcon_0.png",
       "image":"https://api.ambr.top/assets/UI/namecard/UI_NameCardPic_0_P.png"
    }
 }

@@ -45,7 +45,7 @@ def check_ENCard_params(parameters):
 
     if not isinstance(parameters.lang, str):
         raise InvalidValueError("The lang parameter must be a string")
-    if parameters.lang not in ["ru", "en"]:
+    if parameters.lang not in translation.supportLang:
         raise InvalidValueError(f"Invalid value for lang: {parameters.lang}")
     if not isinstance(parameters.characterImgs, dict):
         raise InvalidValueError("The characterImgs parameter must be a dictionary.")

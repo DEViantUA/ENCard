@@ -1,433 +1,64 @@
-mapping = {
-   "10000002":{
-      "id":210081,
-      "icon":"https://api.ambr.top/assets/UI/namecard/UI_NameCardIcon_Ayaka.png",
-      "image":"https://api.ambr.top/assets/UI/namecard/UI_NameCardPic_Ayaka_P.png"
-   },
-   "10000003":{
-      "id":210008,
-      "icon":"https://api.ambr.top/assets/UI/namecard/UI_NameCardIcon_Qin.png",
-      "image":"https://api.ambr.top/assets/UI/namecard/UI_NameCardPic_Qin_P.png"
-   },
-   "10000006":{
-      "id":210011,
-      "icon":"https://api.ambr.top/assets/UI/namecard/UI_NameCardIcon_Lisa.png",
-      "image":"https://api.ambr.top/assets/UI/namecard/UI_NameCardPic_Lisa_P.png"
-   },
-   "10000014":{
-      "id":210009,
-      "icon":"https://api.ambr.top/assets/UI/namecard/UI_NameCardIcon_Barbara.png",
-      "image":"https://api.ambr.top/assets/UI/namecard/UI_NameCardPic_Barbara_P.png"
-   },
-   "10000015":{
-      "id":210010,
-      "icon":"https://api.ambr.top/assets/UI/namecard/UI_NameCardIcon_Kaeya.png",
-      "image":"https://api.ambr.top/assets/UI/namecard/UI_NameCardPic_Kaeya_P.png"
-   },
-   "10000016":{
-      "id":210005,
-      "icon":"https://api.ambr.top/assets/UI/namecard/UI_NameCardIcon_Diluc.png",
-      "image":"https://api.ambr.top/assets/UI/namecard/UI_NameCardPic_Diluc_P.png"
-   },
-   "10000020":{
-      "id":210006,
-      "icon":"https://api.ambr.top/assets/UI/namecard/UI_NameCardIcon_Razor.png",
-      "image":"https://api.ambr.top/assets/UI/namecard/UI_NameCardPic_Razor_P.png"
-   },
-   "10000021":{
-      "id":210003,
-      "icon":"https://api.ambr.top/assets/UI/namecard/UI_NameCardIcon_Ambor.png",
-      "image":"https://api.ambr.top/assets/UI/namecard/UI_NameCardPic_Ambor_P.png"
-   },
-   "10000022":{
-      "id":210007,
-      "icon":"https://api.ambr.top/assets/UI/namecard/UI_NameCardIcon_Venti.png",
-      "image":"https://api.ambr.top/assets/UI/namecard/UI_NameCardPic_Venti_P.png"
-   },
-   "10000023":{
-      "id":210017,
-      "icon":"https://api.ambr.top/assets/UI/namecard/UI_NameCardIcon_Xiangling.png",
-      "image":"https://api.ambr.top/assets/UI/namecard/UI_NameCardPic_Xiangling_P.png"
-   },
-   "10000024":{
-      "id":210039,
-      "icon":"https://api.ambr.top/assets/UI/namecard/UI_NameCardIcon_Beidou.png",
-      "image":"https://api.ambr.top/assets/UI/namecard/UI_NameCardPic_Beidou_P.png"
-   },
-   "10000025":{
-      "id":210018,
-      "icon":"https://api.ambr.top/assets/UI/namecard/UI_NameCardIcon_Xingqiu.png",
-      "image":"https://api.ambr.top/assets/UI/namecard/UI_NameCardPic_Xingqiu_P.png"
-   },
-   "10000026":{
-      "id":210058,
-      "icon":"https://api.ambr.top/assets/UI/namecard/UI_NameCardIcon_Xiao.png",
-      "image":"https://api.ambr.top/assets/UI/namecard/UI_NameCardPic_Xiao_P.png"
-   },
-   "10000027":{
-      "id":210038,
-      "icon":"https://api.ambr.top/assets/UI/namecard/UI_NameCardIcon_Ningguang.png",
-      "image":"https://api.ambr.top/assets/UI/namecard/UI_NameCardPic_Ningguang_P.png"
-   },
-   "10000029":{
-      "id":210004,
-      "icon":"https://api.ambr.top/assets/UI/namecard/UI_NameCardIcon_Klee.png",
-      "image":"https://api.ambr.top/assets/UI/namecard/UI_NameCardPic_Klee_P.png"
-   },
-   "10000030":{
-      "id":210044,
-      "icon":"https://api.ambr.top/assets/UI/namecard/UI_NameCardIcon_Zhongli.png",
-      "image":"https://api.ambr.top/assets/UI/namecard/UI_NameCardPic_Zhongli_P.png"
-   },
-   "10000031":{
-      "id":210013,
-      "icon":"https://api.ambr.top/assets/UI/namecard/UI_NameCardIcon_Fischl.png",
-      "image":"https://api.ambr.top/assets/UI/namecard/UI_NameCardPic_Fischl_P.png"
-   },
-   "10000032":{
-      "id":210016,
-      "icon":"https://api.ambr.top/assets/UI/namecard/UI_NameCardIcon_Bennett.png",
-      "image":"https://api.ambr.top/assets/UI/namecard/UI_NameCardPic_Bennett_P.png"
-   },
-   "10000033":{
-      "id":210046,
-      "icon":"https://api.ambr.top/assets/UI/namecard/UI_NameCardIcon_Tartaglia.png",
-      "image":"https://api.ambr.top/assets/UI/namecard/UI_NameCardPic_Tartaglia_P.png"
-   },
-   "10000034":{
-      "id":210014,
-      "icon":"https://api.ambr.top/assets/UI/namecard/UI_NameCardIcon_Noel.png",
-      "image":"https://api.ambr.top/assets/UI/namecard/UI_NameCardPic_Noel_P.png"
-   },
-   "10000035":{
-      "id":210019,
-      "icon":"https://api.ambr.top/assets/UI/namecard/UI_NameCardIcon_Qiqi.png",
-      "image":"https://api.ambr.top/assets/UI/namecard/UI_NameCardPic_Qiqi_P.png"
-   },
-   "10000036":{
-      "id":210040,
-      "icon":"https://api.ambr.top/assets/UI/namecard/UI_NameCardIcon_Chongyun.png",
-      "image":"https://api.ambr.top/assets/UI/namecard/UI_NameCardPic_Chongyun_P.png"
-   },
-   "10000037":{
-      "id":210053,
-      "icon":"https://api.ambr.top/assets/UI/namecard/UI_NameCardIcon_Ganyu.png",
-      "image":"https://api.ambr.top/assets/UI/namecard/UI_NameCardPic_Ganyu_P.png"
-   },
-   "10000038":{
-      "id":210054,
-      "icon":"https://api.ambr.top/assets/UI/namecard/UI_NameCardIcon_Albedo.png",
-      "image":"https://api.ambr.top/assets/UI/namecard/UI_NameCardPic_Albedo_P.png"
-   },
-   "10000039":{
-      "id":210043,
-      "icon":"https://api.ambr.top/assets/UI/namecard/UI_NameCardIcon_Diona.png",
-      "image":"https://api.ambr.top/assets/UI/namecard/UI_NameCardPic_Diona_P.png"
-   },
-   "10000041":{
-      "id":210015,
-      "icon":"https://api.ambr.top/assets/UI/namecard/UI_NameCardIcon_Mona.png",
-      "image":"https://api.ambr.top/assets/UI/namecard/UI_NameCardPic_Mona_P.png"
-   },
-   "10000042":{
-      "id":210020,
-      "icon":"https://api.ambr.top/assets/UI/namecard/UI_NameCardIcon_Keqing.png",
-      "image":"https://api.ambr.top/assets/UI/namecard/UI_NameCardPic_Keqing_P.png"
-   },
-   "10000043":{
-      "id":210012,
-      "icon":"https://api.ambr.top/assets/UI/namecard/UI_NameCardIcon_Sucrose.png",
-      "image":"https://api.ambr.top/assets/UI/namecard/UI_NameCardPic_Sucrose_P.png"
-   },
-   "10000044":{
-      "id":210045,
-      "icon":"https://api.ambr.top/assets/UI/namecard/UI_NameCardPic_Xinyan.png",
-      "image":"https://api.ambr.top/assets/UI/namecard/UI_NameCardPic_Xinyan_P.png"
-   },
-   "10000045":{
-      "id":210063,
-      "icon":"https://api.ambr.top/assets/UI/namecard/UI_NameCardIcon_Rosaria.png",
-      "image":"https://api.ambr.top/assets/UI/namecard/UI_NameCardPic_Rosaria_P.png"
-   },
-   "10000046":{
-      "id":210059,
-      "icon":"https://api.ambr.top/assets/UI/namecard/UI_NameCardIcon_Hutao.png",
-      "image":"https://api.ambr.top/assets/UI/namecard/UI_NameCardPic_Hutao_P.png"
-   },
-   "10000047":{
-      "id":210073,
-      "icon":"https://api.ambr.top/assets/UI/namecard/UI_NameCardIcon_Kazuha.png",
-      "image":"https://api.ambr.top/assets/UI/namecard/UI_NameCardPic_Kazuha_P.png"
-   },
-   "10000048":{
-      "id":210069,
-      "icon":"https://api.ambr.top/assets/UI/namecard/UI_NameCardIcon_Feiyan.png",
-      "image":"https://api.ambr.top/assets/UI/namecard/UI_NameCardPic_Feiyan_P.png"
-   },
-   "10000049":{
-      "id":210082,
-      "icon":"https://api.ambr.top/assets/UI/namecard/UI_NameCardIcon_Yoimiya.png",
-      "image":"https://api.ambr.top/assets/UI/namecard/UI_NameCardPic_Yoimiya_P.png"
-   },
-   "10000050":{
-      "id":210101,
-      "icon":"https://api.ambr.top/assets/UI/namecard/UI_NameCardIcon_Tohma.png",
-      "image":"https://api.ambr.top/assets/UI/namecard/UI_NameCardPic_Tohma_P.png"
-   },
-   "10000051":{
-      "id":210070,
-      "icon":"https://api.ambr.top/assets/UI/namecard/UI_NameCardIcon_Eula.png",
-      "image":"https://api.ambr.top/assets/UI/namecard/UI_NameCardPic_Eula_P.png"
-   },
-   "10000052":{
-      "id":210092,
-      "icon":"https://api.ambr.top/assets/UI/namecard/UI_NameCardIcon_Shougun.png",
-      "image":"https://api.ambr.top/assets/UI/namecard/UI_NameCardPic_Shougun_P.png"
-   },
-   "10000053":{
-      "id":210083,
-      "icon":"https://api.ambr.top/assets/UI/namecard/UI_NameCardIcon_Sayu.png",
-      "image":"https://api.ambr.top/assets/UI/namecard/UI_NameCardPic_Sayu_P.png"
-   },
-   "10000054":{
-      "id":210093,
-      "icon":"https://api.ambr.top/assets/UI/namecard/UI_NameCardIcon_Kokomi.png",
-      "image":"https://api.ambr.top/assets/UI/namecard/UI_NameCardPic_Kokomi_P.png"
-   },
-   "10000055":{
-      "id":210104,
-      "icon":"https://api.ambr.top/assets/UI/namecard/UI_NameCardIcon_Gorou.png",
-      "image":"https://api.ambr.top/assets/UI/namecard/UI_NameCardPic_Gorou_P.png"
-   },
-   "10000056":{
-      "id":210094,
-      "icon":"https://api.ambr.top/assets/UI/namecard/UI_NameCardIcon_Sara.png",
-      "image":"https://api.ambr.top/assets/UI/namecard/UI_NameCardPic_Sara_P.png"
-   },
-   "10000057":{
-      "id":210105,
-      "icon":"https://api.ambr.top/assets/UI/namecard/UI_NameCardIcon_Itto.png",
-      "image":"https://api.ambr.top/assets/UI/namecard/UI_NameCardPic_Itto_P.png"
-   },
-   "10000058":{
-      "id":210112,
-      "icon":"https://api.ambr.top/assets/UI/namecard/UI_NameCardIcon_Yae1.png",
-      "image":"https://api.ambr.top/assets/UI/namecard/UI_NameCardPic_Yae1_P.png"
-   },
-   "10000059":{
-      "id":210122,
-      "icon":"https://api.ambr.top/assets/UI/namecard/UI_NameCardIcon_Heizo.png",
-      "image":"https://api.ambr.top/assets/UI/namecard/UI_NameCardPic_Heizo_P.png"
-   },
-   "10000060":{
-      "id":210119,
-      "icon":"https://api.ambr.top/assets/UI/namecard/UI_NameCardIcon_Yelan.png",
-      "image":"https://api.ambr.top/assets/UI/namecard/UI_NameCardPic_Yelan_P.png"
-   },
-   "10000061":{
-      "id":210162,
-      "icon":"https://api.ambr.top/assets/UI/namecard/UI_NameCardIcon_Kirara.png",
-      "image":"https://api.ambr.top/assets/UI/namecard/UI_NameCardPic_Kirara_P.png"
-   },
-   "10000062":{
-      "id":210095,
-      "icon":"https://api.ambr.top/assets/UI/namecard/UI_NameCardIcon_Aloy.png",
-      "image":"https://api.ambr.top/assets/UI/namecard/UI_NameCardPic_Aloy_P.png"
-   },
-   "10000063":{
-      "id":210107,
-      "icon":"https://api.ambr.top/assets/UI/namecard/UI_NameCardIcon_Shenhe.png",
-      "image":"https://api.ambr.top/assets/UI/namecard/UI_NameCardPic_Shenhe_P.png"
-   },
-   "10000064":{
-      "id":210108,
-      "icon":"https://api.ambr.top/assets/UI/namecard/UI_NameCardIcon_Yunjin.png",
-      "image":"https://api.ambr.top/assets/UI/namecard/UI_NameCardPic_Yunjin_P.png"
-   },
-   "10000065":{
-      "id":210120,
-      "icon":"https://api.ambr.top/assets/UI/namecard/UI_NameCardIcon_Shinobu.png",
-      "image":"https://api.ambr.top/assets/UI/namecard/UI_NameCardPic_Shinobu_P.png"
-   },
-   "10000066":{
-      "id":210114,
-      "icon":"https://api.ambr.top/assets/UI/namecard/UI_NameCardIcon_Ayato.png",
-      "image":"https://api.ambr.top/assets/UI/namecard/UI_NameCardPic_Ayato_P.png"
-   },
-   "10000067":{
-      "id":210125,
-      "icon":"https://api.ambr.top/assets/UI/namecard/UI_NameCardIcon_Collei.png",
-      "image":"https://api.ambr.top/assets/UI/namecard/UI_NameCardPic_Collei_P.png"
-   },
-   "10000068":{
-      "id":210126,
-      "icon":"https://api.ambr.top/assets/UI/namecard/UI_NameCardIcon_Dori.png",
-      "image":"https://api.ambr.top/assets/UI/namecard/UI_NameCardPic_Dori_P.png"
-   },
-   "10000069":{
-      "id":210124,
-      "icon":"https://api.ambr.top/assets/UI/namecard/UI_NameCardIcon_Tighnari.png",
-      "image":"https://api.ambr.top/assets/UI/namecard/UI_NameCardPic_Tighnari_P.png"
-   },
-   "10000070":{
-      "id":210136,
-      "icon":"https://api.ambr.top/assets/UI/namecard/UI_NameCardIcon_Nilou.png",
-      "image":"https://api.ambr.top/assets/UI/namecard/UI_NameCardPic_Nilou_P.png"
-   },
-   "10000071":{
-      "id":210134,
-      "icon":"https://api.ambr.top/assets/UI/namecard/UI_NameCardIcon_Cyno.png",
-      "image":"https://api.ambr.top/assets/UI/namecard/UI_NameCardPic_Cyno_P.png"
-   },
-   "10000072":{
-      "id":210135,
-      "icon":"https://api.ambr.top/assets/UI/namecard/UI_NameCardIcon_Candace.png",
-      "image":"https://api.ambr.top/assets/UI/namecard/UI_NameCardPic_Candace_P.png"
-   },
-   "10000073":{
-      "id":210140,
-      "icon":"https://api.ambr.top/assets/UI/namecard/UI_NameCardIcon_Nahida.png",
-      "image":"https://api.ambr.top/assets/UI/namecard/UI_NameCardPic_Nahida_P.png"
-   },
-   "10000074":{
-      "id":210141,
-      "icon":"https://api.ambr.top/assets/UI/namecard/UI_NameCardIcon_Layla.png",
-      "image":"https://api.ambr.top/assets/UI/namecard/UI_NameCardPic_Layla_P.png"
-   },
-   "10000075":{
-      "id":210143,
-      "icon":"https://api.ambr.top/assets/UI/namecard/UI_NameCardIcon_Wanderer.png",
-      "image":"https://api.ambr.top/assets/UI/namecard/UI_NameCardPic_Wanderer_P.png"
-   },
-   "10000076":{
-      "id":210144,
-      "icon":"https://api.ambr.top/assets/UI/namecard/UI_NameCardIcon_Faruzan.png",
-      "image":"https://api.ambr.top/assets/UI/namecard/UI_NameCardPic_Faruzan_P.png"
-   },
-   "10000077":{
-      "id":210148,
-      "icon":"https://api.ambr.top/assets/UI/namecard/UI_NameCardIcon_Yaoyao.png",
-      "image":"https://api.ambr.top/assets/UI/namecard/UI_NameCardPic_Yaoyao_P.png"
-   },
-   "10000078":{
-      "id":210147,
-      "icon":"https://api.ambr.top/assets/UI/namecard/UI_NameCardIcon_Alhatham.png",
-      "image":"https://api.ambr.top/assets/UI/namecard/UI_NameCardPic_Alhatham_P.png"
-   },
-   "10000079":{
-      "id":210152,
-      "icon":"https://api.ambr.top/assets/UI/namecard/UI_NameCardIcon_Dehya.png",
-      "image":"https://api.ambr.top/assets/UI/namecard/UI_NameCardPic_Dehya_P.png"
-   },
-   "10000080":{
-      "id":210153,
-      "icon":"https://api.ambr.top/assets/UI/namecard/UI_NameCardIcon_Mika.png",
-      "image":"https://api.ambr.top/assets/UI/namecard/UI_NameCardPic_Mika_P.png"
-   },
-   "10000081":{
-      "id":210156,
-      "icon":"https://api.ambr.top/assets/UI/namecard/UI_NameCardIcon_Kaveh.png",
-      "image":"https://api.ambr.top/assets/UI/namecard/UI_NameCardPic_Kaveh_P.png"
-   },
-   "10000082":{
-      "id":210155,
-      "icon":"https://api.ambr.top/assets/UI/namecard/UI_NameCardIcon_Baizhuer.png",
-      "image":"https://api.ambr.top/assets/UI/namecard/UI_NameCardPic_Baizhuer_P.png"
-   },
-   "10000083":{
-      "id":210166,
-      "icon":"https://api.ambr.top/assets/UI/namecard/UI_NameCardIcon_Linette.png",
-      "image":"https://api.ambr.top/assets/UI/namecard/UI_NameCardPic_Linette_P.png"
-   },
-   "10000084":{
-      "id":210165,
-      "icon":"https://api.ambr.top/assets/UI/namecard/UI_NameCardIcon_Liney.png",
-      "image":"https://api.ambr.top/assets/UI/namecard/UI_NameCardPic_Liney_P.png"
-   },
-   "10000085":{
-      "id":210167,
-      "icon":"https://api.ambr.top/assets/UI/namecard/UI_NameCardIcon_Freminet.png",
-      "image":"https://api.ambr.top/assets/UI/namecard/UI_NameCardPic_Freminet_P.png"
-   },
-   "10000086":{
-      "id":210175,
-      "icon":"https://api.ambr.top/assets/UI/namecard/UI_NameCardIcon_Wriothesley.png",
-      "image":"https://api.ambr.top/assets/UI/namecard/UI_NameCardPic_Wriothesley_P.png"
-   },
-   "10000087":{
-      "id":210174,
-      "icon":"https://api.ambr.top/assets/UI/namecard/UI_NameCardIcon_Neuvillette.png",
-      "image":"https://api.ambr.top/assets/UI/namecard/UI_NameCardPic_Neuvillette_P.png"
-   },
-   "10000088":{
-      "id":210181,
-      "icon":"https://api.ambr.top/assets/UI/namecard/UI_NameCardIcon_Charlotte.png",
-      "image":"https://api.ambr.top/assets/UI/namecard/UI_NameCardPic_Charlotte_P.png"
-   },
-   "10000089":{
-      "id":210180,
-      "icon":"https://api.ambr.top/assets/UI/namecard/UI_NameCardIcon_Furina.png",
-      "image":"https://api.ambr.top/assets/UI/namecard/UI_NameCardPic_Furina_P.png"
-   },
-   "10000005-hydro":{
-      "id":210001,
-      "icon":"https://api.ambr.top/assets/UI/namecard/UI_NameCardIcon_0.png",
-      "image":"https://api.ambr.top/assets/UI/namecard/UI_NameCardPic_0_P.png"
-   },
-   "10000005-anemo":{
-      "id":210001,
-      "icon":"https://api.ambr.top/assets/UI/namecard/UI_NameCardIcon_0.png",
-      "image":"https://api.ambr.top/assets/UI/namecard/UI_NameCardPic_0_P.png"
-   },
-   "10000005-geo":{
-      "id":210001,
-      "icon":"https://api.ambr.top/assets/UI/namecard/UI_NameCardIcon_0.png",
-      "image":"https://api.ambr.top/assets/UI/namecard/UI_NameCardPic_0_P.png"
-   },
-   "10000005-electro":{
-      "id":210001,
-      "icon":"https://api.ambr.top/assets/UI/namecard/UI_NameCardIcon_0.png",
-      "image":"https://api.ambr.top/assets/UI/namecard/UI_NameCardPic_0_P.png"
-   },
-   "10000005-dendro":{
-      "id":210001,
-      "icon":"https://api.ambr.top/assets/UI/namecard/UI_NameCardIcon_0.png",
-      "image":"https://api.ambr.top/assets/UI/namecard/UI_NameCardPic_0_P.png"
-   },
-   "10000007-hydro":{
-      "id":210001,
-      "icon":"https://api.ambr.top/assets/UI/namecard/UI_NameCardIcon_0.png",
-      "image":"https://api.ambr.top/assets/UI/namecard/UI_NameCardPic_0_P.png"
-   },
-   "10000007-anemo":{
-      "id":210001,
-      "icon":"https://api.ambr.top/assets/UI/namecard/UI_NameCardIcon_0.png",
-      "image":"https://api.ambr.top/assets/UI/namecard/UI_NameCardPic_0_P.png"
-   },
-   "10000007-geo":{
-      "id":210001,
-      "icon":"https://api.ambr.top/assets/UI/namecard/UI_NameCardIcon_0.png",
-      "image":"https://api.ambr.top/assets/UI/namecard/UI_NameCardPic_0_P.png"
-   },
-   "10000007-electro":{
-      "id":210001,
-      "icon":"https://api.ambr.top/assets/UI/namecard/UI_NameCardIcon_0.png",
-      "image":"https://api.ambr.top/assets/UI/namecard/UI_NameCardPic_0_P.png"
-   },
-   "10000007-dendro":{
-      "id":210001,
-      "icon":"https://api.ambr.top/assets/UI/namecard/UI_NameCardIcon_0.png",
-      "image":"https://api.ambr.top/assets/UI/namecard/UI_NameCardPic_0_P.png"
-   }
-}
+import json
+from typing import Any, Literal
 
+import aiohttp
+
+
+PATH = "ENCard/encard/src/assets/maps/namecard_map.json"
 
 class Get:
     def __init__(self,charter_id) -> None:
         self.charter_id = str(charter_id)
+        with open(PATH) as f:
+            self._mapping = json.load(f)
         
-    def __getattr__(self,name):
-        if self.charter_id  in mapping:
-            return mapping[self.charter_id].get(name)
+    def __getattr__(self, name: str) -> Any:
+        if self.charter_id in self._mapping:
+            return self._mapping[self.charter_id][name]
         else:
-            raise AttributeError(f"'{type(self)}' object has no attribute '{self.charter_id}'")
+            return {
+                "id": 210001,
+                "icon": "https://api.ambr.top/assets/UI/namecard/UI_NameCardIcon_0.png",
+                "image": "https://api.ambr.top/assets/UI/namecard/UI_NameCardPic_0_P.png",
+            }[name]
+
+async def update_data() -> None:
+    result: dict[str, dict[Literal["id", "icon", "image"]]] = {}
+    namecards_data = "https://raw.githubusercontent.com/EnkaNetwork/API-docs/master/store/namecards.json"
+    characters_data = "https://raw.githubusercontent.com/seriaati/enka-py-assets/main/data/characters.json"
+    all_characters = "https://api.ambr.top/v2/en/avatar"
+    
+    async with aiohttp.ClientSession() as session:
+        async with session.get(namecards_data) as response:
+            namecards: dict[str, dict[Literal["icon"], str]] = json.loads(await response.text())
+        
+        async with session.get(characters_data) as response:
+            characters: dict[str, dict[str, Any]] = json.loads(await response.text())
+            
+        async with session.get(all_characters) as response:
+            all_characters: dict[str, dict[str, Any]] = await response.json()
+            
+    namecard_map: dict[str, str] = {
+        namecard["icon"]: namecard_id for namecard_id, namecard in namecards.items()
+    }
+    
+    for character_id, character in characters.items():
+        namecard_icon: str | None = character.get("NamecardIcon")
+        if namecard_icon is not None:
+            result[character_id] = {
+                "id": namecard_map[namecard_icon],
+                "icon": f"https://api.ambr.top/assets/UI/namecard/{namecard_icon.replace('Icon', 'Pic').replace('_P', '')}.png",
+                "image": f"https://api.ambr.top/assets/UI/namecard/{namecard_icon}.png",
+            }
+    
+    # Travelers
+    for character_id in all_characters["data"]["items"]:
+        if character_id not in result:
+            result[character_id] = {
+                "id": 210001,
+                "icon": "https://api.ambr.top/assets/UI/namecard/UI_NameCardIcon_0.png",
+                "image": "https://api.ambr.top/assets/UI/namecard/UI_NameCardPic_0_P.png",
+            }
+            
+    with open(PATH, "w") as f:
+        json.dump(result, f)

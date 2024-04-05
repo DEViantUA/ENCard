@@ -186,10 +186,10 @@ class TeampleOne:
         background.alpha_composite(_LEFT_BACKGROUND, (363,58))
         background.alpha_composite(_CENTR_BACKGROUND, (483,92))
 
-        size = int(font.getlength(self.name_user))
+        size = int(font.getlength(str(self.uid)))
         name = Image.new("RGBA", (size+2,22), (255,255,255,0))
         draw = ImageDraw.Draw(name)
-        draw.text((0,0), self.name_user, font= font, fill=(255,255,255,70))
+        draw.text((0,0), str(self.uid), font= font, fill=(255,255,255,70))
 
         text = ImageDraw.Draw(background)
         text.text((16,18), charter.name, font= font, fill=(255,255,255,255))

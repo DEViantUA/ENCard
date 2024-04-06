@@ -14,7 +14,7 @@ _mapping = {
     'background_one_dendro': 'template_one/background/DENDRO.png',
 
     'background_adapt': 'template_one/background/ADAPT.png',
-    'background_adapt_mask': 'template_one/background/FRAME_MASKA_ADAPT.png',
+    'background_adatpt_frame': 'template_one/background/ADAPT_FRAME.png',
 
     'cart_center': 'template_one/background_character/CENTER.png',
     'cart_left': 'template_one/background_character/LEFT.png',
@@ -24,6 +24,8 @@ _mapping = {
     'cart_left_mask': 'template_one/background_character/MASK_LEFT.png',
     'cart_right_mask': 'template_one/background_character/MASK_RIGHT.png',
 
+    'cart_shadow': 'template_one/background_character/SHADOW_BACCKGROUND.png',
+    
     'nickname_icon': 'icon/NICK.png',
 
     'stars5': 'stars/Star5.png',
@@ -84,7 +86,10 @@ _mapping = {
     'CLOSED_CONSTANT_PYRO': 'template_one/constant/closed/CLOSE_CONST_PYRO.png',
     'CLOSED_CONSTANT': 'template_one/constant/closed/CLOSED.png',
     'CLOSED_ADAPT_MASK_CONSTANT': 'template_one/constant/closed/ADAPT.png',
+    'maska_constant': 'template_one/constant/maska_constant.png',
+    'const_adapt': 'template_one/constant/const_adapt.png',
     'SKILLS': 'template_one/talants/bg.png',
+    
 
 
 

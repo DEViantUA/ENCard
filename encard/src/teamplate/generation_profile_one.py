@@ -51,10 +51,7 @@ class ProfileOne:
         namecard.alpha_composite(namecard_frame, (0,0))
         return namecard
     
-
-
     async def creat_profil_pictures(self):
-
         background_avatart = await _gitFile.AVATAR
         mask_avatart = await _gitFile.AVATAR_MASK
         avatar = self.info.avatar.icon.url
@@ -103,6 +100,7 @@ class ProfileOne:
 
     async def creat_charters_stand(self,charter):
         background = await _gitFile.CHARTER_BACKGROUND
+        background = background.copy()
         CHARTER_MASK = await _gitFile.CHARTER_MASK
         charter_image = await pill.get_dowload_img(charter.icon.url, size=(119, 120))
         character_level = await EnkanetworkApi.get_charters(charter.id)
@@ -110,7 +108,7 @@ class ProfileOne:
             character_level = await _gitFile.CHARTER_5
         else:
             character_level = await _gitFile.CHARTER_4
-
+        character_level = character_level.copy()
         icon_elemnt = await get_element_icon(charter.element)
         icon_elemnt = icon_elemnt.resize((30,30))
         charter_image = Image.composite(character_level, charter_image, CHARTER_MASK.convert("L"))
@@ -171,12 +169,14 @@ class ProfileOne:
 
     async def info_charter(self):
         charter_list = []
-        charter_name = ""
+        character_name = ""
+        character_id = ""
         for key in self.info.characters_preview:
             charter_list.append({"id": key.id, "name": key.name, "icon": key.icon.url, "element": str(key.element)})
-            charter_name += f"{key.name}, "
+            character_name += f"{key.name}, "
+            character_id += f"{key.id}, "
 
-        return charter_list,charter_name
+        return charter_list,character_name,character_id
 
     async def start(self):
         info = await EnkanetworkApi.get_full_info(self.agent,self.lang,self.uid)
@@ -186,13 +186,14 @@ class ProfileOne:
             "name": info.player.nickname,
             "lang": self.lang,
             "charter": [],
-            "charter_name": "",
+            "character_name": "",
+            "character_id": "",
             "card": None,
         }
 
         result = await asyncio.gather(self.profile(),self.info_charter())
 
-        user_data["card"],user_data["charter"],user_data["charter_name"] = result[0],result[1][0],result[1][1]
+        user_data["card"],user_data["charter"],user_data["character_name"],user_data["character_id"] = result[0],result[1][0],result[1][1],result[1][2]
 
         return ENCardResult.EnkaProfile(**user_data)
 

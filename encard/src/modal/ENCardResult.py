@@ -1,19 +1,21 @@
 from pydantic import BaseModel
-from typing import List
+from typing import List,Optional
 from PIL import Image
 
 class EnkaCard(BaseModel):
-    id: int
-    name: str
-    element: str
+    id: Optional[int]
+    name: Optional[str]
+    element: Optional[str]
+    icon: Optional[str]
     card: Image.Image
+    color: tuple
     class Config:
         arbitrary_types_allowed = True
 
 class EnkaNetworkCard(BaseModel):
-    uid: int
-    name: str
-    lang: str
+    uid: Optional[int]
+    name: Optional[str]
+    lang: Optional[str]
     card: List[EnkaCard]
 
 
@@ -28,7 +30,8 @@ class EnkaProfile(BaseModel):
     name: str
     lang: str
     charter: List[EnkaProfileCharter]
-    charter_name: str
+    character_name: str
+    character_id: str
     card: Image.Image
     class Config:
         arbitrary_types_allowed = True

@@ -423,5 +423,10 @@
         "id": 210193,
         "icon": "https://api.ambr.top/assets/UI/namecard/UI_NameCardIcon_Chiori.png",
         "image": "https://api.ambr.top/assets/UI/namecard/UI_NameCardPic_Chiori_P.png"
+    },
+    "10000005": {
+        "id": 210192,
+        "icon": "https://api.ambr.top/assets/UI/namecard/UI_NameCardPic_OST4_P.png",
+        "image": "https://api.ambr.top/assets/UI/namecard/UI_NameCardPic_OST4_P.png"
     }
 }

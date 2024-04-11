@@ -4,6 +4,7 @@ from io import BytesIO
 from collections import namedtuple
 from math import sqrt
 
+import PIL
 import aiohttp,re,random
 
 
@@ -22,7 +23,12 @@ async def get_dowload_img(link,size = None, thumbnail_size = None):
     except:
         raise
     
-    image = Image.open(BytesIO(image)).convert("RGBA")
+    try:
+        image = Image.open(BytesIO(image)).convert("RGBA")
+    except PIL.UnidentifiedImageError:
+        print(link)
+        raise
+    
     if size:
         return image.resize(size)
     elif thumbnail_size:

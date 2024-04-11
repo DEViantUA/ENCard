@@ -26,7 +26,7 @@ async def get_dowload_img(link,size = None, thumbnail_size = None):
     try:
         image = Image.open(BytesIO(image)).convert("RGBA")
     except PIL.UnidentifiedImageError:
-        print(link)
+        print(f"Error: UnidentifiedImageError, {link}")
         raise
     
     if size:

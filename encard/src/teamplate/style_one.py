@@ -266,8 +266,9 @@ class Creat:
                         else:
                             continue 
                     icon_stats = await getIconAdd(key[0], size= (26,26),stats = True)
-                    if not icon_stats:
+                    if not icon_stats or ix > 4:
                         continue
+                        
                     self.background_dop_stats.alpha_composite(icon_stats,(16,position_dop[ix][0]))
 
                     stats_dop_value = f"{key[1].to_rounded() if isinstance(key[1], Stats) else key[1].to_percentage_symbol()}"

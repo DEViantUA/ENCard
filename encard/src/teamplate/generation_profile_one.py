@@ -153,6 +153,8 @@ class ProfileOne:
 
         for i,key in enumerate(charters):
             right_background.alpha_composite(key,positions[i])
+            if i == 7:
+                break
 
         return right_background
 
